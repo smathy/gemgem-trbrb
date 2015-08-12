@@ -1,8 +1,8 @@
 %h3 What do you want to talk about?
 
 = simple_form_for @form do |f|
-  = f.input :name, placeholder: "Name", readonly: @form.readonly?(:name)
-  = f.input :description, placeholder: "Description"
+  = f.input :name, readonly: @form.readonly?(:name)
+  = f.input :description
 
   = f.button :submit, class: :expand
 
