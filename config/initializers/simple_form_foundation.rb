@@ -7,7 +7,7 @@ SimpleForm.setup do |config|
     b.optional :pattern
     b.optional :min_max
     b.optional :readonly
-    b.use :label_input
+    b.use :input
     b.use :error, wrap_with: { tag: :small }
 
     # Uncomment the following line to enable hints. The line is commented out by default since Foundation
